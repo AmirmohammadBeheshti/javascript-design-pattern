@@ -1,5 +1,9 @@
 # Design Patterns Implementation
 
+<p align="center">
+  <img src="static/design_pattern.png">
+</p>
+
 ### Overview
 
 This repository contains implementations of various design patterns in software engineering. Design patterns are standard solutions to common problems in software design, making code more flexible, reusable, and maintainable. By providing these implementations, the goal is to offer a practical reference for developers to understand and apply these patterns in their own projects.   
