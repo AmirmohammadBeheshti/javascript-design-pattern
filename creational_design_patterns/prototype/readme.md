@@ -1,5 +1,9 @@
 # Prototype Design Pattern
 
+<p align="center">
+  <img src="../../static/prototype.jpg">
+</p>
+
 
 The prototype pattern is a creational design pattern in software development. It is used to create new objects by copying an existing object, known as a prototype, rather than creating new instances from scratch. This pattern is particularly useful in scenarios where object creation is complex or resource-intensive.
 
