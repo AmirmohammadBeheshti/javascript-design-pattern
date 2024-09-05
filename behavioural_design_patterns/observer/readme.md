@@ -17,3 +17,14 @@ Here are some programming or design "smells" that suggest the Observer pattern w
 * Ineffective Communication Between Objects: If you see objects communicating directly with many other objects to share changes to their internal state, this is a strong smell. This could result in spaghetti code that is difficult to maintain and understand. Implementing the Observer pattern ensures a clean way of communication between objects.
 
 * High Component Coupling: If components in your system are highly dependent on each other, then changes in one might affect the others. The Observer pattern provides a way to reduce dependencies between your software components.
+
+
+<p align="center">
+  <img src="../../static/observer2.png">
+</p>
+
+**Use the Observer pattern when changes to the state of one object may require changing other objects, and the actual set of objects is unknown beforehand or changes dynamically.**
+
+ You can often experience this problem when working with classes of the graphical user interface. For example, you created custom button classes, and you want to let the clients hook some custom code to your buttons so that it fires whenever a user presses a button.
+
+The Observer pattern lets any object that implements the subscriber interface subscribe for event notifications in publisher objects. You can add the subscription mechanism to your buttons, letting the clients hook up their custom code via custom subscriber classes.
